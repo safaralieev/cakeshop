@@ -4,6 +4,9 @@
     padding: 0;
     
 }
+section{
+    padding: 100px 0;
+}
 .container{
       max-width: 1320px;
     padding: 0 10px;
@@ -177,7 +180,7 @@ header nav .navbar .blog .dropdownmenu li:hover::before{
 }
 #schilers{
     background-color: black;
-    padding: 100px 0;
+  
 }
 #schilers .row{
     padding: 30px 0;
@@ -252,7 +255,7 @@ transition: all 1s;
 
 }
 #video{
-    padding: 100px 0;
+    
     background-color: black;
 }
 #video .cook{
@@ -286,6 +289,103 @@ transition: all 1s;
   justify-content: center;}
   
 
+  #comment{
+    background-color: #000;
+  }
+#comment .title p{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    color: #DFDFDF;
+    margin-bottom: 60px;
+
+  
+    text-align: center;
+    
+}
+#comment .icons i{
+    color: #E5BF4A;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#comment .text p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 36px;
+    font-weight: 300;
+}
+#comment .user{
+    align-items: center;
+    display: flex;
+}
+#comment .user p{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #fff;
+}
+#comment .card{
+    padding: 20px;
+}
+
+
+#comment [class^="col" ]{
+border: 1px solid rgba(255,255,255,0.2);
+
+}
+#comment [class^="col" ]:first-child{
+    border-left: none;
+}
+#comment [class^="col" ]:last-child{
+    border-right: none;
+}
+#blogs{
+    background-color: #000;
+    
+}
+#blogs .title .text p{
+    color: #DFDFDF;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 12px;
+}
+#blogs .title  a{
+    border: 1px solid #E5BF4A ;
+    font-size: 15px;
+    font-weight: 400;
+    background: #E5BF4A;
+    padding: 22px 41px;
+}
+#blogs .button{
+    text-align: end;
+}
+#blogs img{
+    width: 100%;
+}
+#blogs .down h2{
+    color: #E5BF4A;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#blogs .down .subtitle{
+    font-size: 16px;
+    color:white ;
+    
+}
+#blogs .down .more{
+    color: #E5BF4A;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 1px solid #E5BF4A;
+    padding: 5px 0;
+}
+#blogs .card{
+    display: flex;
+}
 
 
 
@@ -318,10 +418,10 @@ transition: all 1s;
 
 
 
+.container-fluid{
+    width: 100%;
 
-
-
-
+}
 
 
 
